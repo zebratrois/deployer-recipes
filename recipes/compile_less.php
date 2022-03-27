@@ -21,7 +21,7 @@ task('deploy:compile_less', function () {
     foreach ($files as $glob => $target) {
         foreach (explode(PHP_EOL, run('ls ' . $glob)) as $path) {
             $filename = str_replace('.less', '', basename($path));
-            run('vendor/marfrelen/lessphp/plessc ' . $path . ' > ' . str_replace('[filename]', $filename, $target));
+            run('vendor/bin/plessc ' . $path . ' > ' . str_replace('[filename]', $filename, $target));
             if (false === $keepfiles)  {
                 run('unlink ' . $path);
             }

@@ -4,55 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e4ba1b296220a1198bd109db0f71fac",
+    "content-hash": "a76544987f3de6ecf4e2e5370e6df620",
     "packages": [
-        {
-            "name": "marfrelen/lessphp",
-            "version": "v0.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/marfrelen/lessphp.git",
-                "reference": "aa71a912b8f672f398e4d205e2ba1d9908b641dd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/marfrelen/lessphp/zipball/aa71a912b8f672f398e4d205e2ba1d9908b641dd",
-                "reference": "aa71a912b8f672f398e4d205e2ba1d9908b641dd",
-                "shasum": ""
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.7.27",
-                "squizlabs/php_codesniffer": "3.3.2"
-            },
-            "bin": [
-                "plessc",
-                "lessify"
-            ],
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "lessc.inc.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT",
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Markus Lenz",
-                    "email": "markus@marfrelen.de",
-                    "homepage": "https://marfrelen.de"
-                }
-            ],
-            "description": "lessphp is a compiler for LESS written in PHP.",
-            "homepage": "http://marfrelen.de/lessphp/",
-            "support": {
-                "source": "https://github.com/marfrelen/lessphp/tree/v0.5.1"
-            },
-            "time": "2021-04-09T08:52:40+00:00"
-        },
         {
             "name": "matthiasmullie/minify",
             "version": "1.3.66",
@@ -183,12 +136,67 @@
                 "source": "https://github.com/matthiasmullie/path-converter/tree/1.1.3"
             },
             "time": "2019-02-05T23:41:09+00:00"
+        },
+        {
+            "name": "zebratrois/lessphp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zebratrois/lessphp.git",
+                "reference": "f94e7092c220ff149ba1e796ec6abd19edfb5bfd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zebratrois/lessphp/zipball/f94e7092c220ff149ba1e796ec6abd19edfb5bfd",
+                "reference": "f94e7092c220ff149ba1e796ec6abd19edfb5bfd",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7.27",
+                "squizlabs/php_codesniffer": "3.3.2"
+            },
+            "default-branch": true,
+            "bin": [
+                "plessc",
+                "lessify"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lessc.inc.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Romain Guillard",
+                    "email": "romain@romainguillard.net",
+                    "homepage": "https://romainguillard.net"
+                },
+                {
+                    "name": "Leaf Corcoran",
+                    "email": "leafot@gmail.com",
+                    "homepage": "http://leafo.net"
+                }
+            ],
+            "description": "lessphp is a compiler for LESS written in PHP - Forked to add PHP8.1 compat",
+            "homepage": "https://github.com/zebratrois/lessphp",
+            "support": {
+                "source": "https://github.com/zebratrois/lessphp/tree/master"
+            },
+            "time": "2022-03-27T09:55:42+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "zebratrois/lessphp": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

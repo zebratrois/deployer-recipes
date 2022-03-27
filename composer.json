@@ -11,12 +11,6 @@
         "matthiasmullie/minify": "^1.3",
         "zebratrois/lessphp": "dev-master"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/zebratrois/lessphp"
-        }
-    ],
     "autoload": {
         "files": [
             "autoload.php"

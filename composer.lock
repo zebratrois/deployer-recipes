@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a76544987f3de6ecf4e2e5370e6df620",
+    "content-hash": "d0b5c177807ccc7bd1b179b148250845",
     "packages": [
         {
             "name": "matthiasmullie/minify",
@@ -139,7 +139,7 @@
         },
         {
             "name": "zebratrois/lessphp",
-            "version": "dev-master",
+            "version": "0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zebratrois/lessphp.git",
@@ -155,7 +155,6 @@
                 "phpunit/phpunit": "^5.7.27",
                 "squizlabs/php_codesniffer": "3.3.2"
             },
-            "default-branch": true,
             "bin": [
                 "plessc",
                 "lessify"
@@ -186,7 +185,7 @@
             "description": "lessphp is a compiler for LESS written in PHP - Forked to add PHP8.1 compat",
             "homepage": "https://github.com/zebratrois/lessphp",
             "support": {
-                "source": "https://github.com/zebratrois/lessphp/tree/master"
+                "source": "https://github.com/zebratrois/lessphp/tree/0.5.1"
             },
             "time": "2022-03-27T09:55:42+00:00"
         }
@@ -194,9 +193,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "zebratrois/lessphp": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

@@ -3,8 +3,7 @@ namespace Deployer;
 
 set('git_commit_hash', function() {
     $git = get('bin/git');
-    cd('{{release_path}}');
-    $hash = run("$git log --pretty=format:'%h' -n 1");
+    $hash = runLocally("$git log --pretty=format:'%h' -n 1");
     return $hash;
 });
 

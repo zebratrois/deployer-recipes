@@ -186,20 +186,20 @@
         },
         {
             "name": "zebratrois/lessphp",
-            "version": "0.6.0",
+            "version": "0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zebratrois/lessphp.git",
-                "reference": "2fd5fd9db95dcfba20575848fd5e664404860899"
+                "reference": "bd9982563b465d014ec129e751bdb5cb4fa89bf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zebratrois/lessphp/zipball/2fd5fd9db95dcfba20575848fd5e664404860899",
-                "reference": "2fd5fd9db95dcfba20575848fd5e664404860899",
+                "url": "https://api.github.com/repos/zebratrois/lessphp/zipball/bd9982563b465d014ec129e751bdb5cb4fa89bf8",
+                "reference": "bd9982563b465d014ec129e751bdb5cb4fa89bf8",
                 "shasum": ""
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.7.27",
+                "phpunit/phpunit": "^11.0",
                 "squizlabs/php_codesniffer": "3.3.2"
             },
             "bin": [
@@ -232,9 +232,9 @@
             "description": "lessphp is a compiler for LESS written in PHP - Forked to add PHP8.1 compat",
             "homepage": "https://github.com/zebratrois/lessphp",
             "support": {
-                "source": "https://github.com/zebratrois/lessphp/tree/0.6.0"
+                "source": "https://github.com/zebratrois/lessphp/tree/0.6.1"
             },
-            "time": "2025-01-06T13:16:51+00:00"
+            "time": "2025-01-06T13:23:50+00:00"
         }
     ],
     "packages-dev": [],
